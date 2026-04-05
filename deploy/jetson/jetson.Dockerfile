@@ -1,0 +1,5 @@
+FROM nvcr.io/nvidia/l4t-base:r35.4.1
+
+WORKDIR /app
+COPY . .
+CMD ["bash"]
